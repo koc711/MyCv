@@ -1,0 +1,35 @@
+@import url(reset.css);
+
+#wrapper{
+    outline: 1px solid aqua;
+    position: relative;
+    height: 400px;
+    width:1000px;
+    margin: 0 auto;
+}
+
+#test, #webBasedTech,#soft,#lang{
+    outline: 1px solid blue;
+    width: 100px;
+    float: left;
+    margin-left: 2px;
+    
+    }
+    
+#testing a {
+    text-decoration: none;
+    cursor: pointer;
+    font: 12px Georgia,sans-serif;
+    color:#666666;  
+}   
+
+#test li, #webBasedTech li,#soft li,#lang li{
+    outline: 1px solid blue;
+}
+.clear{
+    clear: both;
+}
+
+
+
+
